@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_demands"
+        android:icon="@drawable/demands"
+        android:title="Demands"/>
+    <item
+        android:id="@+id/nav_borrowings"
+        android:icon="@drawable/borrowings"
+        android:title="Borrowings"/>
+    <item
+        android:id="@+id/nav_books"
+        android:icon="@drawable/ic_noun_books_1389675"
+        android:title="Books"/>
+    <item
+        android:id="@+id/nav_bookshelves"
+        android:icon="@drawable/bookshelves"
+        android:title="Shelves"/>
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_noun_profile_4753962"
+        android:title="Profile"/>
+</menu>

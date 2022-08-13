@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication"
+    android:targetSandboxVersion="1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".AdminMainAppShelvesShelfModifyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainAppUsersUserAddConnectInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainAppUsersUserAddAdditionalPersonalInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserMainAppBooksSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserMainAppBooksBookViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserMainAppTagsTagViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserMainAppTagsSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserMainAppBorrowingsBorrowingViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserMainAppBorrowingsSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserMainAppDemandsDemandViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserMainAppDemandsSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserMainAppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserSignUpConnectInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserSignUpAdditionalPersonalInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserSignUpPersonalInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserConnectingPortViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainAppBooksBookModifyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashPageActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdminSignUpConnectInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSignUpPersonalInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminConnectingPortViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSignUpAdditionalPersonalInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainAppUsersUserAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainAppUsersSelectingSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainAppBooksSelectingSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainAppBorrowingsBorrowingAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainAppDemandsSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainAppBorrowingsSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainAppShelvesSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainAppBorrowingsBorrowingViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainAppShelvesShelfAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainAppShelvesShelfViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainAppDemandsDemandViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainAppBooksSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainAppBooksBookAddActivityImp"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainAppBooksBookViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainAppBooksBookAddActivityPlace"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainAppBooksBookAddActivityFiles"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainAppActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

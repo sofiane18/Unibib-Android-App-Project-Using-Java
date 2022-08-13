@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:backgroundTint="#121212"
+    app:cardCornerRadius="2.8dp"
+    app:cardElevation="0dp"
+    tools:ignore="DuplicateClickableBoundsCheck">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+        <ImageView
+            android:id="@+id/adminBooksBookCardViewImage"
+            android:layout_width="90dp"
+            android:layout_height="0dp"
+            android:contentDescription="TODO"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="@+id/adminDemandsDemandCardViewDate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/adminBooksBookCardViewBookTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="7dp"
+            android:text="Book Title"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/adminBooksBookCardViewImage"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/adminBooksBookCardViewRef"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="7dp"
+            android:text="Shelf,Side,Row,Col"
+            android:textColor="@color/design_default_color_on_primary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/adminBooksBookCardViewImage"
+            app:layout_constraintTop_toBottomOf="@+id/adminBooksBookCardViewBookTitle" />
+
+        <TextView
+            android:id="@+id/adminBooksBookCardViewQuantity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="7dp"
+            android:text="Quantity"
+            android:textColor="@color/design_default_color_on_primary"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/adminBooksBookCardViewImage"
+            app:layout_constraintTop_toBottomOf="@+id/adminBooksBookCardViewRef" />
+
+        <TextView
+            android:id="@+id/adminDemandsDemandCardViewName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="7dp"
+            android:text="Last, First Name"
+            android:textColor="@color/design_default_color_on_primary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/adminBooksBookCardViewImage"
+            app:layout_constraintTop_toBottomOf="@+id/adminBooksBookCardViewQuantity" />
+
+        <TextView
+            android:id="@+id/adminDemandsDemandCardViewId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="7dp"
+            android:text="UserID"
+            android:textColor="@color/design_default_color_on_primary"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/adminBooksBookCardViewImage"
+            app:layout_constraintTop_toBottomOf="@+id/adminDemandsDemandCardViewName" />
+
+        <TextView
+            android:id="@+id/adminDemandsDemandCardViewDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="7dp"
+            android:text="Date"
+            android:textColor="@color/design_default_color_on_primary"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/adminBooksBookCardViewImage"
+            app:layout_constraintTop_toBottomOf="@+id/adminDemandsDemandCardViewId" />
+
+        <Button
+            android:id="@+id/right_button"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#05BD74"
+            android:text="Approve"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            app:cornerRadius="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/adminDemandsDemandCardViewDate" />
+
+        <Button
+            android:id="@+id/left_button"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="#BA0438"
+            android:text="excuse"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            app:cornerRadius="50dp"
+            app:layout_constraintBottom_toBottomOf="@+id/right_button"
+            app:layout_constraintEnd_toStartOf="@+id/right_button"
+            app:layout_constraintTop_toTopOf="@+id/right_button" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

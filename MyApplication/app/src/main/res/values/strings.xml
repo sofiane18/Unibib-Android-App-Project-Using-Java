@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Unibib</string>
+    <string name="home">Home</string>
+    <string name="tags">tags</string>
+    <string name="search">Search</string>
+    <string name="books">Books</string>
+    <string name="profile">profile</string>
+    <string name="unibib_logo">unibib_logo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_a_book">Add A Book</string>
+    <string name="demands">Demands</string>
+    <string name="shelves">Shelves</string>
+    <string name="borrowings">Borrowings</string>
+    <string name="categories">Categories</string>
+
+
+</resources>

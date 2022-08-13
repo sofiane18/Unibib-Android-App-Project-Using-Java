@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/nav_home"
+    android:icon="@drawable/ic_noun_home_4764390"
+    android:title="@string/home" />
+    <item
+    android:id="@+id/nav_hashtag"
+    android:icon="@drawable/ic_noun_hashtag_981812"
+    android:title="@string/categories" />
+    <item
+    android:id="@+id/nav_demands"
+    android:icon="@drawable/demands"
+    android:title="@string/demands" />
+    <item
+    android:id="@+id/nav_borrowings"
+    android:icon="@drawable/borrowings"
+    android:title="@string/borrowings" />
+    <item
+    android:id="@+id/nav_user_profile"
+    android:icon="@drawable/ic_noun_profile_4753962"
+    android:title="@string/profile" />
+
+</menu>

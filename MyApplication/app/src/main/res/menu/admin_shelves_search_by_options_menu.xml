@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/name"
+        android:title="Name" />
+    <item
+        android:id="@+id/sides"
+        android:title="Sides" />
+    <item
+        android:id="@+id/rows"
+        android:title="Rows" />
+    <item
+        android:id="@+id/cols"
+        android:title="Columns" />
+    <item
+        android:id="@+id/shelfRef"
+        android:title="ShelfID" />
+</menu>

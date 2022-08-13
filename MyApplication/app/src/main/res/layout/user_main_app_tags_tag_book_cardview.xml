@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bookCardView"
+    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+    android:layout_width="168dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_marginBottom="10dp"
+    app:cardBackgroundColor="@color/dark_grey_black"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp"
+    tools:ignore="DuplicateClickableBoundsCheck">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="8dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="8dp">
+
+        <ImageView
+            android:id="@+id/adminBooksBookCardViewImage"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:padding="2dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/adminBooksBookCardViewBookTitle"
+            android:layout_width="0dp"
+            android:layout_height="33dp"
+            android:lines="2"
+            android:maxLines="2"
+            android:paddingBottom="3dp"
+            android:text="Book Title"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="@+id/adminBooksBookCardViewImage"
+            app:layout_constraintStart_toStartOf="@+id/adminBooksBookCardViewImage"
+            app:layout_constraintTop_toBottomOf="@+id/adminBooksBookCardViewImage" />
+
+        <TextView
+            android:id="@+id/adminBooksBookCardViewAuthorName"
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingBottom="3dp"
+            android:text="Author Name"
+            android:textAlignment="center"
+            android:textColor="#E4E4E4"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@+id/adminBooksBookCardViewImage"
+            app:layout_constraintStart_toStartOf="@+id/adminBooksBookCardViewBookTitle"
+            app:layout_constraintTop_toBottomOf="@+id/adminBooksBookCardViewBookTitle" />
+
+        <TextView
+            android:id="@+id/edition"
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:lines="1"
+            android:maxLines="1"
+            android:text="Edition: 14th, 2016"
+            android:textAlignment="center"
+            android:textColor="#E4E4E4"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@+id/adminBooksBookCardViewImage"
+            app:layout_constraintStart_toStartOf="@+id/adminBooksBookCardViewAuthorName"
+            app:layout_constraintTop_toBottomOf="@+id/adminBooksBookCardViewAuthorName" />
+
+        <Button
+            android:id="@+id/buttonBorrow"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:backgroundTint="@color/user_nav_item_selected"
+            android:text="Demand"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            app:cornerRadius="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edition" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
