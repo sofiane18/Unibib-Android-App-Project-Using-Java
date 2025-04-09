@@ -1,4 +1,4 @@
-# Gestion Bibliothèque Universitaire - Mobile Application
+#  📚 Android University Library Management App (Java + PHP/MySQL)
 
 **Project Title (French):** Conception et réalisation d’une application mobile pour la gestion d’une bibliothèque universitaire
 **Project Title (English):** Design and implementation of a mobile application for managing a university library
